@@ -122,13 +122,23 @@ nav {
   display: none;
 }
 
+.map-text {
+  text-align: left !important;
+}
+
 section {
   padding-bottom: 30px;
 }
 
-#g-map {
-  pointer-events: none;
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:600px;
+   height:400px; /* your iframe height */
+   top:400px;  /* your iframe height */
+   margin-top:-400px;  /* your iframe height */
 }
+
 
 section.last {
   padding-bottom: 60px;
@@ -149,4 +159,11 @@ section.last {
   margin: 3rem 0 -1rem 0;
   font-size: 8pt;
   color: #aaa;
+}
+
+/* Media queries */
+@media(max-width: 1189px) {
+  .map-text {
+    text-align: center !important;
+  }
 }
