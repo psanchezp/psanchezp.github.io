@@ -1,0 +1,136 @@
+/* Globals */
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  font-family: 'Lato', 'sans-serif';
+}
+
+body { 
+  padding-top: 50px;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.blue-font {
+  color: #4C7EB1 !important;
+}
+
+.blue-background {
+  background-color: #4C7EB1 !important;
+}
+
+.grey-font {
+  color: #EEEEEE !important;
+}
+
+.grey-background {
+  color: #EEEEEE !important;
+}
+
+.white-font {
+  color: white !important;
+}
+
+/*Scroll anchor to avoid nav */
+a.anchor {
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
+}
+
+/* Navigation Bar */
+nav {
+  font-weight: bold;
+}
+
+.navbar {
+  border-bottom: 0px !important;
+  -webkit-box-shadow: 0px 5px 2px 0px rgba(50, 50, 50, 0.2);
+  -moz-box-shadow: 0px 5px 2px 0px rgba(50, 50, 50, 0.2);
+  box-shadow: 0px 5px 2px 0px rgba(50, 50, 50, 0.2);
+}
+
+/* Jumbotron */
+.image-background {
+  min-height: 75vh;
+  min-height: 570px;
+  background-image: url('auto.jpg');
+  background-color: #4C7EB1;
+  padding: 0px;
+
+  /*Parallax*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#jumbotron-container {
+  min-height: 75vh;
+  min-height: 570px;
+  padding: 0 0 0 10rem;
+  background-color: rgba(34, 34, 34, 0.7)
+}
+
+#title-text {
+  padding: 5rem 0 0 0;
+  margin-bottom: 0;
+  font-size: 72pt;
+  font-weight: bolder;
+  -webkit-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  animation-duration: 4s;
+}
+
+#title-subtext {
+  margin-top: 0;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+/* Content */
+section {
+  padding-bottom: 30px;
+}
+
+#g-map {
+  pointer-events: none;
+}
+
+section.last {
+  padding-bottom: 60px;
+}
+
+/* Footer */
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: #EEEEEE;
+}
+
+#credits {
+  margin: 3rem 0 -1rem 0;
+  font-size: 8pt;
+  color: #aaa;
+}
