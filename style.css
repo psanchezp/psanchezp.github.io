@@ -139,6 +139,10 @@ section {
    margin-top:-400px;  /* your iframe height */
 }
 
+iframe, object, embed {
+    max-width: 100%;
+}
+
 
 section.last {
   padding-bottom: 60px;
