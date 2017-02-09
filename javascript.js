@@ -12,7 +12,7 @@ $(function() {
     }
   });
 
-  $('#boton-nosotros').on(click, function(){
-    $('#nosotros').toggle();
+  $('#boton-nosotros').on('click', function(){
+    $("#nosotros").css("display", "block");
   });
 });
