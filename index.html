@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Aficomp</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/1f31d3ff47.js"></script>
 
     <!-- Other CSS and JS -->
@@ -19,8 +17,7 @@
     <link href="animate.css" rel="stylesheet">
     <script type="text/javascript" src="javascript.js"></script>
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
-    <!-- <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:700" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,12 +28,11 @@
   </head>
   <body>
     <!-- Nav Bar -->
-    <nav class="navbar navbar-default navbar-fixed-top blue-background">
+    <nav class="navbar navbar-fixed-top navbar-default blue-background">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -44,7 +40,7 @@
           <a class="navbar-brand grey-font" href="#top">Aficomp</a>
         </div>
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="navbar-collapse-1" aria-expanded="false">
           <ul class="nav navbar-nav">
             <li><a id="boton-nosotros" class="grey-font" href="#about_us">Nosotros</a></li>
             <li><a class="grey-font" href="#location">Localización</a></li>
@@ -56,19 +52,17 @@
     </nav>
 
     <a id="top" class="anchor"></a>
-    <section class="jumbotron white-background">
-      <div class="container-fluid" id="jumbotron-container">
-        <div class="row">
-          <div class="col-md-6">
-            <h1 class="blue-font animated fadeIn" id="title-text">Aficomp</h1>
-            <h3 class="blue-font animated fadeIn" id="title-subtext">Mecánica Automotriz</h3>
-          </div>
-          <div class="col-md-6">
-            <img src="auto2.png" class="img-responsive animated slideInRight" id="auto-img">
-          </div>
+    <div class="container-fluid" id="jumbotron-container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <h1 class="blue-font animated fadeIn" id="title-text">Aficomp</h1>
+          <h3 class="blue-font animated fadeIn" id="title-subtext">Mecánica Automotriz</h3>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <img src="auto2.png" class="img-responsive animated slideInRight" id="auto-img">
         </div>
       </div>
-    </section>
+    </div>
 
     <a id="about_us" class="anchor"></a>
     <section id="nosotros">
@@ -100,7 +94,7 @@
             <div class="overlay" onClick="style.pointerEvents='none'"></div>
             <iframe id="g-map-one" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.2773688226853!2d-100.40329500963283!3d25.662098622563104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662bd7b83a3c6d7%3A0x93a78f0caf776d6a!2sAficomp!5e0!3m2!1ses-419!2smx!4v1490316787328" width="600" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
-          <div class="col-md-4 map-text pull-right">
+          <div class="col-md-4 map-text">
             <h3>
               Vasconcelos 107 Ote. 
               <br>
@@ -126,7 +120,7 @@
             <div class="overlay" onClick="style.pointerEvents='none'"></div>
             <iframe id="g-map-two" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.862860442256!2d-100.2700738818061!3d25.60947292765296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662bf67c19572e5%3A0x121ef3fd481c9823!2sAv+Eugenio+Garza+Sada+6011%2C+Villa+Las+Fuentes%2C+64890+Monterrey%2C+N.L.!5e0!3m2!1ses-419!2smx!4v1490316957777" width="600" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
-          <div class="col-md-4 map-text pull-right">
+          <div class="col-md-4 map-text">
             <h3>
               Ave. Eugenio Garza Sada 6011
               <br>
@@ -155,21 +149,23 @@
         </div>
         <div class="row">
           <div class="col-md-6">
-            <h2><span class="fa fa-phone"></span> Teléfonos:</h3>
+            <h2><span class="fa fa-phone"></span> Teléfonos:</h2>
             <div class="row">
               <div class="col-md-6">
-                <h3>San Pedro</h4>
+                <h3>San Pedro</h3>
                 <h4>8338-9050</h4>
                 <h4>8338-9060</h4>
               </div>
               <div class="col-md-6">
-                <h3>Monterrey</h4>
+                <h3>Monterrey</h3>
                 <h4>8357-9410</h4>
               </div>
             </div>
           </div>
           <div class="col-md-6">
-            <h2><span class="fa fa-envelope"></span> Email: aficomp@hotmail.com </h3>
+            <h2 id="text-mail">
+              <span class="fa fa-envelope"></span> Email: aficomp@hotmail.com 
+            </h2>
           </div>
         </div>
       </div>

@@ -11,8 +11,7 @@ html {
 }
 
 html, body {
-  /*font-family: 'Oswald', 'sans-serif';*/
-  font-family: 'Montserrat', 'sans-serif';
+  font-family: 'Open Sans', sans-serif;
 }
 
 body { 
@@ -25,6 +24,11 @@ body {
 
 h1 {
   font-weight: bold;
+}
+
+h2,h3,h4,h5
+{
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .blue-font {
@@ -124,7 +128,7 @@ nav {
 }
 
 .map-text {
-  text-align: left !important;
+  text-align: left;
 }
 
 section {
@@ -170,5 +174,19 @@ section.last {
 @media(max-width: 1189px) {
   .map-text {
     text-align: center !important;
+  }
+}
+
+@media(max-width: 650px) {
+  h1 {
+    font-size: 28pt !important;
+  }
+
+  h2 {
+    font-size: 18pt !important;
+  }
+
+  #title-subtext {
+    font-size: 18pt;
   }
 }
