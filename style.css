@@ -12,6 +12,7 @@ html {
 
 html, body {
   font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 body { 
@@ -20,7 +21,6 @@ body {
   margin: 0;
   padding-bottom: 6rem;
   min-height: 100%;
-  overflow-x: hidden !important;
 }
 
 h1 {
@@ -149,7 +149,6 @@ section {
 iframe, object, embed {
     max-width: 100%;
 }
-
 
 section.last {
   padding-bottom: 60px;
