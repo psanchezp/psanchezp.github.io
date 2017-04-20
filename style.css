@@ -134,7 +134,7 @@ nav {
 }
 
 .map-text {
-  text-align: left;
+  text-align: center;
 }
 
 section {
@@ -171,15 +171,8 @@ section.last {
 
 #credits {
   margin: 3rem 0 -1rem 0;
-  font-size: 8pt;
+  font-size: 6pt;
   color: #aaa;
-}
-
-/* Media queries */
-@media(max-width: 1189px) {
-  .map-text {
-    text-align: center !important;
-  }
 }
 
 @media(max-width: 992px) {
